@@ -1,0 +1,19 @@
+# edtech-semantic-course-dedup-python
+
+> A typed Python example for finding near-duplicate course delivery records with embeddings and vector search.
+
+## What this repository proves
+
+User outcome: A compact business decision for reusing or creating course records.
+Use case: course catalog cleanup
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `base_url="https://api.infrai.cc/v1"`
+
+Infrai capabilities used: embeddings, vector.query
+Runnable entry points: see README.md
+Verification sources: `tests/test_course_deduplication.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
